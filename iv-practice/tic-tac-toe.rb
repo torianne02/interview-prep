@@ -1,3 +1,23 @@
+# To-Do:
+#   - create TicTacToe class, initialized with empty array of 9 strings w/ space
+#   - create array with win combinations 
+#   - create method that displays the game board to be used throughout class as board status changes
+#   - method needs to be made to prompt user to choose the position they'd like to play
+#     - this method needs to call other methods to make sure the move is valid and update game board
+#   - method to check if position is taken
+#   - method to check if user input is a valid move/position between 1 and 9
+#   - need method to convert user input from string to integer to index (+1)
+#   - have method that counts # of turns taken
+#   - have method that determines what players turn it is using turns taken method
+#   - method to update board with valid move
+#   - method that checks if game board is full
+#   - method that determines if game is a draw
+#   - method that determines if game is over
+#   - method that determines if game has been won
+#   - method that checks if the board meets any win combinations criteria
+#   - method to determine which player won
+#   - method that plays the game
+
 class TicTacToe
   def initialize
     @board = Array.new(9, " ")
