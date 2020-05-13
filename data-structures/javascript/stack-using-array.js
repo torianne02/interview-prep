@@ -1,4 +1,3 @@
-// array implementation
 class Stack {
   constructor() {
     this.list = []
